@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Tejaswi R Bangera — Software Developer Portfolio" />
+  <title>Tejaswi R Bangera | Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="progress"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav container">
+      <a class="brand" href="#home"><span>TR</span> Tejaswi</a>
+      <button class="menu-btn" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#research">Research</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="nav-cta">Let's Connect</a>
+      </div>
+      <button id="themeBtn" class="icon-btn" aria-label="Toggle theme">☼</button>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero container">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse"></span> Open to software development opportunities</div>
+        <h1>Building software that<br><span class="gradient-text">solves real problems.</span></h1>
+        <p class="hero-role">MCA Student · Java & Spring Boot Developer · Full-Stack Developer</p>
+        <p class="hero-text">
+          I’m Tejaswi R Bangera, an MCA student focused on Java, Spring Boot, web development,
+          databases and practical software engineering. I enjoy turning ideas into clean,
+          useful applications.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View My Work <span>↗</span></a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+        <div class="socials">
+          <a href="https://github.com/tteju16" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/tejaswi-r-bangera-b3127328b" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:tejaswikulal16@gmail.com">Email</a>
+          <a href="https://leetcode.com/u/tejaswikulal16/" target="_blank" rel="noreferrer">LeetCode</a>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="photo-card">
+          <div class="photo-glow"></div>
+          <img src="assets/profile.jpg" alt="Tejaswi R Bangera" />
+          <div class="floating-badge badge-top"><b>9.59</b><small>MCA CGPA</small></div>
+          <div class="floating-badge badge-bottom"><b>Java</b><small>Spring Boot</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="stats container reveal">
+      <div><strong>9.59</strong><span>MCA CGPA</span></div>
+      <div><strong>9.64</strong><span>BCA CGPA</span></div>
+      <div><strong>5+</strong><span>GitHub Repositories</span></div>
+      <div><strong>1</strong><span>Web Development Internship</span></div>
+    </section>
+
+    <section id="about" class="section container">
+      <div class="section-heading reveal">
+        <span>01 / ABOUT</span>
+        <h2>A developer who likes to <em>build.</em></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I’m a motivated and detail-oriented MCA student with a strong foundation in
+            programming and software development. My core interests are backend development,
+            full-stack web applications, REST APIs, databases and practical problem solving.
+          </p>
+          <p>
+            My project work spans Spring Boot, MERN, PHP/MySQL, Django and machine learning.
+            I like understanding how the pieces fit together — from database design and APIs
+            to the user interface.
+          </p>
+          <div class="mini-cards">
+            <div><span>01</span><b>Backend</b><small>Java · Spring Boot · REST APIs</small></div>
+            <div><span>02</span><b>Full Stack</b><small>React · Node · Express · MongoDB</small></div>
+            <div><span>03</span><b>Web</b><small>PHP · MySQL · HTML · CSS · JS</small></div>
+          </div>
+        </div>
+        <div class="code-card reveal">
+          <div class="code-head"><span></span><span></span><span></span><small>tejaswi.java</small></div>
+          <pre><code><span class="kw">public class</span> <span class="type">Tejaswi</span> {
+  <span class="kw">String</span> focus = <span class="str">"Software Development"</span>;
+  <span class="kw">String</span>[] skills = {
+    <span class="str">"Java"</span>, <span class="str">"Spring Boot"</span>,
+    <span class="str">"React"</span>, <span class="str">"MySQL"</span>
+  };
+
+  <span class="kw">void</span> build() {
+    <span class="fn">solveProblems</span>();
+    <span class="fn">keepLearning</span>();
+  }
+}</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>02 / SKILLS</span>
+          <h2>Tools I use to turn ideas into <em>software.</em></h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-card reveal"><div class="skill-icon">☕</div><h3>Languages</h3><p>Java · JavaScript · C++ · Python · SQL · HTML/CSS</p></div>
+          <div class="skill-card reveal"><div class="skill-icon">⌘</div><h3>Backend</h3><p>Spring Boot · REST APIs · Hibernate/JPA · Node.js · Django</p></div>
+          <div class="skill-card reveal"><div class="skill-icon">◫</div><h3>Frontend</h3><p>React.js · JavaScript · HTML · CSS · Responsive UI</p></div>
+          <div class="skill-card reveal"><div class="skill-icon">◉</div><h3>Databases</h3><p>MySQL · MongoDB · H2 · SQL database design</p></div>
+          <div class="skill-card reveal"><div class="skill-icon">◎</div><h3>CS Fundamentals</h3><p>DSA · OOP · DBMS · OS · Computer Networks</p></div>
+          <div class="skill-card reveal"><div class="skill-icon">↗</div><h3>Developer Tools</h3><p>Git · GitHub · VS Code · IntelliJ · AWS</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section container">
+      <div class="section-heading reveal">
+        <span>03 / EXPERIENCE</span>
+        <h2>Where I gained <em>hands-on</em> experience.</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Web Developer Intern</div>
+          <div class="timeline-content">
+            <h3>CodeLab Systems</h3>
+            <p class="muted">PHP Web Development</p>
+            <p>Worked with core PHP, MySQL, HTML, CSS and JavaScript to build backend functionality,
+              database integration and user-friendly interfaces. Contributed to development while
+              collaborating with the team and meeting deadlines.</p>
+            <div class="tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span><span>HTML/CSS</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>04 / PROJECTS</span>
+          <h2>A selection of things I’ve <em>built.</em></h2>
+          <p>Resume projects and the public repositories currently available on my GitHub profile.</p>
+        </div>
+
+        <div class="filter-row reveal">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="java">Java</button>
+          <button class="filter" data-filter="web">Web</button>
+          <button class="filter" data-filter="ml">ML</button>
+          <button class="filter" data-filter="github">GitHub</button>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured reveal" data-cat="java github">
+            <div class="project-top"><span class="project-number">01</span><span class="project-label">Featured · GitHub</span></div>
+            <h3>Hostel Room Allocation System</h3>
+            <p>Spring Boot application that automates student room assignment, tracks room availability and manages hostel records with an H2 in-memory database.</p>
+            <div class="tags"><span>Java</span><span>Spring Boot</span><span>REST APIs</span><span>H2</span></div>
+            <a class="project-link" href="https://github.com/tteju16/hostel-room-allocation-system" target="_blank" rel="noreferrer">View repository ↗</a>
+          </article>
+
+          <article class="project-card featured reveal" data-cat="web github">
+            <div class="project-top"><span class="project-number">02</span><span class="project-label">Featured · GitHub</span></div>
+            <h3>Online Learning Management System</h3>
+            <p>Full-stack learning platform with authentication, course management and role-based dashboards, built with a MERN-style architecture.</p>
+            <div class="tags"><span>MongoDB</span><span>Express</span><span>React</span><span>Node.js</span></div>
+            <a class="project-link" href="https://github.com/tteju16/online-learning-system-main" target="_blank" rel="noreferrer">View repository ↗</a>
+          </article>
+
+          <article class="project-card reveal" data-cat="ml">
+            <div class="project-top"><span class="project-number">03</span><span class="project-label">Resume Project</span></div>
+            <h3>Spam Email Detection</h3>
+            <p>Machine-learning system that classifies spam and legitimate emails using text preprocessing, TF-IDF feature extraction and a Naive Bayes model.</p>
+            <div class="tags"><span>Python</span><span>Machine Learning</span><span>Naive Bayes</span><span>TF-IDF</span></div>
+            <a class="project-link" href="https://github.com/tteju16/SpamEmailDetection" target="_blank" rel="noreferrer">View repository ↗</a>
+
+          </article>
+
+          <article class="project-card reveal" data-cat="java">
+            <div class="project-top"><span class="project-number">04</span><span class="project-label">Resume Project</span></div>
+            <h3>Expense Tracker</h3>
+            <p>Personal finance management application with authentication, income and expense tracking, savings calculation and financial reports. The backend is built with Spring Boot and MySQL.</p>
+            <div class="tags"><span>Spring Boot</span><span>JPA</span><span>MySQL</span><span>REST APIs</span></div>
+            <a class="project-link" href="https://github.com/tteju16/ExpenseWise" target="_blank" rel="noreferrer">View repository ↗</a>
+          </article>
+
+          <article class="project-card reveal" data-cat="web">
+            <div class="project-top"><span class="project-number">05</span><span class="project-label">Internship Project</span></div>
+            <h3>Agno CanteenHub</h3>
+            <p>Dynamic canteen management web application supporting admin and student/staff roles, menu browsing, order placement, order tracking, payment integration and feedback.</p>
+            <div class="tags"><span>PHP</span><span>MySQL</span><span>JavaScript</span><span>HTML/CSS</span></div>
+          </article>
+
+          <article class="project-card reveal" data-cat="web github">
+            <div class="project-top"><span class="project-number">06</span><span class="project-label">Project</span></div>
+            <h3>MiniMart — MERN E-Commerce</h3>
+            <p>Full-stack e-commerce application with product browsing, cart management, checkout, user authentication and order management, built with React, Node.js, Express and MongoDB.</p>
+            <div class="tags"><span>React</span><span>Node.js</span><span>Express</span><span>MongoDB</span></div>
+            <a class="project-link" href="https://github.com/tteju16/MiniMart" target="_blank" rel="noreferrer">View on GitHub ↗</a>
+          </article>
+
+          <article class="project-card reveal" data-cat="web ml">
+            <div class="project-top"><span class="project-number">07</span><span class="project-label">Project</span></div>
+            <h3>Job Recommender</h3>
+            <p>A job recommendation project designed to help users discover relevant opportunities based on their skills and profile information.</p>
+            <div class="tags"><span>Python</span><span>Machine Learning</span><span>Recommendation</span></div>
+            <a class="project-link" href="https://github.com/tteju16/" target="_blank" rel="noreferrer">View repository ↗</a>
+
+          </article>
+
+          <article class="project-card reveal" data-cat="web github">
+            <div class="project-top"><span class="project-number">10</span><span class="project-label">GitHub</span></div>
+            <h3>Hospital Management</h3>
+            <p>A project built using the Django framework, maintained as a public repository on GitHub.</p>
+            <div class="tags"><span>Python</span><span>Django</span></div>
+            <a class="project-link" href="https://github.com/tteju16/hospital-management" target="_blank" rel="noreferrer">View repository ↗</a>
+          </article>
+
+          <article class="project-card reveal" data-cat="web github">
+  <div class="project-top">
+    <span class="project-number">11</span>
+    <span class="project-label">Project</span>
+  </div>
+
+  <h3>Resume Builder</h3>
+
+  <p>
+    A web-based resume builder that helps users create and customize
+    professional resumes by entering their personal, educational,
+    skills, and experience details.
+  </p>
+
+  <div class="tags">
+    <span>Ruby on Rails</span>
+    <span>HTML</span>
+    <span>CSS</span>
+    <span>JavaScript</span>
+  </div>
+
+  <a class="project-link"
+     href="https://github.com/tteju16/resume-builder"
+     target="_blank"
+     rel="noreferrer">
+    View on GitHub ↗
+  </a>
+</article>
+
+<article class="project-card reveal" data-cat="web github">
+  <div class="project-top">
+    <span class="project-number">12</span>
+    <span class="project-label">Project</span>
+  </div>
+
+  <h3>Student Manager</h3>
+
+  <p>
+    A student management application designed to manage student records,
+    organize academic information, and simplify common student-related
+    administrative tasks through a structured web interface.
+  </p>
+
+  <div class="tags">
+    <span>Web Development</span>
+    <span>Database</span>
+    <span>CRUD</span>
+  </div>
+
+  <a class="project-link"
+     href="https://github.com/tteju16/student-manager"
+     target="_blank"
+     rel="noreferrer">
+    View on GitHub ↗
+  </a>
+</article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="research" class="section alt">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span>05 / RESEARCH WORK</span>
+          <h2>Research focused on <em>trustworthy AI.</em></h2>
+        </div>
+        <article class="research-card reveal">
+          <span class="research-label">Research Work</span>
+          <h3>Trustworthy and Hallucination-Aware Diffusion-Based MRI-to-PET Synthesis for Early Alzheimer’s Disease Diagnosis</h3>
+          <p>
+            This research work focuses on using diffusion-based artificial intelligence to synthesize
+            PET-like brain images from MRI scans for early Alzheimer’s disease diagnosis, with an
+            emphasis on making the generated images trustworthy, reducing hallucination-related risks,
+            and supporting reliable and explainable clinical decision-making.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="section container">
+      <div class="section-heading reveal">
+        <span>06 / EDUCATION & ACHIEVEMENTS</span>
+        <h2>The foundation behind the <em>work.</em></h2>
+      </div>
+      <div class="edu-grid">
+        <article class="edu-card reveal">
+          <span class="year">2025 — Current</span>
+          <h3>Master of Computer Applications</h3>
+          <p>NMAM Institute of Technology, Karnataka</p>
+          <strong>CGPA: 9.59</strong>
+        </article>
+        <article class="edu-card reveal">
+          <span class="year">2022 — 2025</span>
+          <h3>Bachelor of Computer Applications</h3>
+          <p>St Agnes College (Autonomous), Mangalore</p>
+          <strong>CGPA: 9.64</strong>
+        </article>
+      </div>
+      <div class="achievement-row reveal">
+        <div><b>🏅 1st Rank</b><span>BCA · Gold Medal</span></div>
+        <div><b>☁ Oracle OCI</b><span>Foundations Associate</span></div>
+        <div><b>⚡ Salesforce</b><span>Trailhead hands-on training</span></div>
+        <div><b>☁ AWS</b><span>Cloud Practitioner Essentials</span></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-card reveal">
+        <div>
+          <span class="eyebrow">06 / CONTACT</span>
+          <h2>Have a project or opportunity in mind?</h2>
+          <p>Let’s connect and build something useful.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="btn primary" href="mailto:tejaswikulal16@gmail.com">Send an Email ↗</a>
+          <a class="btn secondary" href="tel:+918296338828">+91 8296338828</a>
+          <a class="btn secondary" href="https://github.com/tteju16" target="_blank" rel="noreferrer">GitHub</a>
+          <a class="btn secondary" href="https://leetcode.com/u/tejaswikulal16/" target="_blank" rel="noreferrer">LeetCode</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <span>© 2026 Tejaswi R Bangera</span>
+    <span>Designed & built with HTML · CSS · JavaScript</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
